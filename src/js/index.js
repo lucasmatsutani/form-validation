@@ -2,8 +2,6 @@ const inputs = document.querySelectorAll(".input");
 const texts = document.querySelectorAll(".text");
 const button = document.querySelector("button");
 
-let buttonClicked = false
-
 inputs.forEach((input, indice) => {
     input.addEventListener("change", () => {
         if (input.value){
